@@ -1,4 +1,4 @@
-CAFA-6 Protein Function Prediction — Baseline
+# CAFA-6 Protein Function Prediction — Baseline
 
 Overview
 - Predict Gene Ontology (GO) terms (MF, BP, CC) for proteins from sequences.
@@ -85,4 +85,3 @@ Project Structure
 - `src/go_graph.py`: Parse GO DAG and compute ancestors.
 - `src/predict.py`: Predict, propagate ancestors, and write TSV.
 - `src/sanity_check.py`: Tiny self-contained test run.
-# CAFA-6-Protein-Function-Prediction
